@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <!-- "width=device-width" cause the page to scale down to fit content that overflows the viewport bounds. "shrink-to-fit=no" prevent the page from scaling to fit the viewport.  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Prediction</title>
+  <link rel="icon" type="image/png" href="img/favicon.png"/>
+
+  <!-- Change: Added Bootstrap CSS link (it's therefore not using the downloaded version coming with the template, but the CDN) -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+  <!-- Links to Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+  <!-- Custom style -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body style="background-image: url(https://www.asiainsurancereview.com/UploadedImages/ImageLibrary/Insurance/large/InsurTech-01.jpg);background-repeat: no-repeat; background-size: 1500px;">
+</body>
+
+    <style>
+        body {
+            background-image: ;
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            background-size: 100% 100%;
+        }
+        .main{
+            position:fixed;
+            top:120px;
+            left:410px;
+            width:700px;
+            background-color:gainsboro;
+            align-items:center;
+            border-radius:6%;
+        }
+        div{
+            padding:15px;
+        }
+        input[type=submit]{
+            background-color:Black;
+            color:white;
+            cursor:pointer;
+            padding: 16px 32px;
+        }
+        h1{
+            font-size:40px;
+            color: darkslateblue;
+            text-align: center ;
+        }
+        h2{
+            font-size:30px;
+            color:DarkRed;
+        
+        }
+        h4{
+            font-size: medium;
+            color: grey;
+
+        }
+       
+        
+    </style>
+   
+    </style>
+</head>
+<body style="text-align:center">
+    
+
+ 
+    <div>
+        <h1>Isurance Charges Estimator</h1>
+
+    </div>
+   <div class="main">
+       <h3>Fill this form to see an estimate</h3>
+       <h4>Please enter the following values:</h4>
+       <form action="result">
+           <div class="row">
+               <div class="col-sm-4" style="background-color:Bisque;">
+                   <p>Age</p>
+                   <input type="text" name="n1">
+               </div>
+               <div class="col-sm-4" style="background-color:DarkSeaGreen;">
+                   <p>Sex</p>
+                   <input type="text" name="n2">
+               </div>
+               <div class="col-sm-4" style="background-color:LightPink;">
+                   <p>BMI</p>
+                   <input type="text" name="n3">
+               </div>
+           </div>
+           <div class="row">
+               <div class="col-sm-4" style="background-color:Turquoise;">
+                   <p>Children</p>
+                   <input type="text" name="n4">
+               </div>
+               <div class="col-sm-4" style="background-color:RosyBrown;">
+                   <p>Smoker</p>
+                   <input type="text" name="n5">
+               </div>
+           </div>
+           
+       </form>
+       
+       <button onclick="myFunction()">START</button>
+
+        <script>function myFunction(){
+        location.replace("final.html")
+        }
+        </script>
+   <!-- Bootstrap JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+
+</body>
+</html
